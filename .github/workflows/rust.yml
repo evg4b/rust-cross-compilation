@@ -23,8 +23,8 @@ jobs:
           # Windows
           - runs-on: windows-latest
             target: x86_64-pc-windows-gnu
-          - runs-on: windows-latest
-            target: i686-pc-windows-gnu
+#          - runs-on: windows-latest
+#            target: i686-pc-windows-gnu
           # Linux GNU
           - runs-on: ubuntu-24.04
             target: aarch64-unknown-linux-gnu
